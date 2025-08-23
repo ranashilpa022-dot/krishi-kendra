@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+  header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: green;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+  .services {
+  padding: 110px 20px;
+  text-align: center;
+  background: #eef9ee;
+}
+
+.services h2 {
+  padding-top: 110px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: green;
+}
+
+.services p {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.service {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.service:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.service img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.service h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: darkgreen;
+}
+
+.service p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+footer {
+  font-size: 18px;
+  height: 100px;
+  background-color: #333;
+  color: white;
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+}
+
+footer small{
+  font-size: 18px;
+}
+
+    </style>
+</head>
+
+<header>
+    <h1>🌾Shubham Krishi Kendra</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+<body>
+    <section class="services">
+  <h2>🌱 Our Services</h2>
+  <p>We provide essential services to help farmers grow better and smarter.</p>
+
+  <div class="service-grid">
+
+    <!-- Service 1 -->
+    <div class="service">
+      <img src="image copy 4.png" alt="Soil Testing">
+      <h3>Soil Testing</h3>
+      <p>Accurate soil testing with expert recommendations for better yield.</p>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service">
+      <img src="image copy 5.png" alt="Equipment Rental">
+      <h3>Equipment Rental</h3>
+      <p>Affordable rental of tractors and modern farming equipment.</p>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="service">
+      <img src="image copy 3.png" alt="Crop Consultation">
+      <h3>Crop Consultation</h3>
+      <p>Expert advice on seeds, fertilizers, and crop management strategies.</p>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="service">
+      <img src="image copy 2.png" alt="Home Delivery">
+      <h3>Home Delivery</h3>
+      <p>Get seeds, fertilizers, and tools delivered to your doorstep.</p>
+    </div>
+
+    <!-- Service 5 -->
+    <div class="service">
+      <img src="image.png" alt="Farmer Training">
+      <h3>Farmer Training</h3>
+      <p>Workshops and training programs to learn modern farming techniques.</p>
+    </div>
+
+    <!-- Service 6 -->
+    <div class="service">
+      <img src="image copy.png" alt="24/7 Support">
+      <h3>24/7 Support</h3>
+      <p>Friendly customer support to answer your farming-related queries anytime.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>© 2025 🌾 Shubham Krishi Kendra | All Rights Reserved</p>
+  <small>Made with ❤️ for Farmers</small>
+</footer>
+
+ <!-- Script -->
+   <script src="script.js"></script>
+
+</body>
+</html>
