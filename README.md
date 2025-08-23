@@ -1,0 +1,1 @@
+This is a mini-project for creating a Krishi Kendra (Agriculture Center) website, where farmers can explore agricultural products, services, and contact details. The website is made using HTML, CSS, and JavaScript.
