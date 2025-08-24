@@ -29,9 +29,6 @@ This project demonstrates the use of **HTML, CSS, and JavaScript** to build a re
 
 ---
 
-## 📸 Screenshots (Optional)
-(Add screenshots of your homepage, product section, and contact page here for better presentation.)
-
 ---
 
 ## 📖 About the Project
